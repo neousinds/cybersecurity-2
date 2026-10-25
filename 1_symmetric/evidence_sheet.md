@@ -1,12 +1,12 @@
 # Evidence sheet — Track 1 (Symmetric)
 
-Name / Student ID: ______________________   Date: ____________
+Name / Student ID: Nur Agni Try Anindhiya / S1324004  Date: 28/10/2026
 
 One row per step. Keep each cell short and checkable, paste real output, and **never write a key value** — write how you obtained it.
 
 | Case | Vulnerable code (file/line) | Your payload / test step | Output evidence | Fix | Re-test result |
 |---|---|---|---|---|---|
-| C1–C2 Caesar (warm-up, not graded) | `c1_caesar.py` | | | | |
+| C1–C2 Caesar (warm-up, not graded) | `c1_caesar.py` |ran brute_force on caesar_message.txt |shift  7: ORDER-0000042 HAS BEEN SHIPPED TO THE BEKASI WAREHOUSE. This Caesar cipher is NOT secure for any secret. |Use AES-GCM instead (S1) | Not Applicable, It is a toy chhiper. |
 | S1–S2 AES-GCM done right | — | | | | |
 | S3 ECB leaks patterns | `weak_ecb.py` | | | | |
 | S4 ECB without authentication | `weak_ecb.py` | | | | |
